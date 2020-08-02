@@ -18,7 +18,6 @@ function App() {
   useEffect(() => {
     canvas = canvasRef.current;
     ctx = canvas.getContext('2d');
-
     canvas.addEventListener('mousedown', onMouseDown);
     window.addEventListener('mousemove', onMouseMove);
     window.addEventListener('mouseup', onMouseUp);

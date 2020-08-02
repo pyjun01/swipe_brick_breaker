@@ -13,3 +13,31 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
+.App {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+
+  > div {
+    display: flex;
+
+    > div + div {
+      margin-left: 15px;
+    }
+
+    .value {
+      font-weight: bold;
+      color: #0064ff;
+    }
+  }
+
+  > #canvas {
+    border: 1px solid #000;
+    display: block;
+  }
+}
