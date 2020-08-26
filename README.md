@@ -1,7 +1,5 @@
 # Swipe brick breaker
 
-DEMO: https://pyjun01.github.io/swipe_brick_breaker/
-
 ## 할거
 
 - [X] 공 속도
@@ -14,3 +12,4 @@ DEMO: https://pyjun01.github.io/swipe_brick_breaker/
   * 턴끝나고 내려오는거
 - [X] 게임 종료
 - [ ] 코드 정리
+- [ ] 급식때 코드여서 리팩토링 할꺼임 암튼 언제가 할거임
